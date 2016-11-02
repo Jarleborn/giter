@@ -10,7 +10,7 @@ fi
 
 if [ $branch != null ]
 then
-git push origin $branch
+git push origin master:$branch
 fi
 
 say "your code is pushed now master, have a nice day"
