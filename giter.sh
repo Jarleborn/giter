@@ -10,7 +10,7 @@ else
   git push origin master:$branch
 fi
 
+day=$(date +%u)
 
-
-say "your code is pushed now master, have a nice day"
+say "your code is pushed now master, have a nice $day"
 echo basename `git rev-parse --show-toplevel`
