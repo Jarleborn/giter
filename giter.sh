@@ -5,12 +5,9 @@ git add . -A
 git commit -m "$commit_message"
 if [[ -z "$branch" ]]
 then
-    git push origin master
-fi
-
-if [[! -z "$branch" ]]
-then
-git push origin master:$branch
+  git push origin master
+else
+  git push origin master:$branch
 fi
 
 
