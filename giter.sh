@@ -3,12 +3,12 @@ commit_message="$1"
 branch="$2"
 git add . -A
 git commit -m "$commit_message"
-if [ $branch == null ]
+if [[ -z "$branch" ]]
 then
     git push origin master
 fi
 
-if [ $branch != null ]
+if [[! -z "$branch" ]]
 then
 git push origin master:$branch
 fi
