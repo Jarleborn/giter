@@ -13,7 +13,7 @@ then
 git push origin master:$branch
 fi
 
-if ! failingcommand
+if ! fatal
 then
     say "Error you dumb count"
     echo >&2 message
