@@ -1,7 +1,6 @@
-#!/bin/bash
-echo "Lets Push To Git"
-git add .
-git commit -m "This commit is done by giter"
+#!/bin/bash -e
+commit_message="$1"
+git add . -A
+git commit -m "$commit_message"
 git push
-say "Master your code is pushed"
-echo "what he said"
+say"your code is pushed"
