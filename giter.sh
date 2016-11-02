@@ -3,7 +3,7 @@ commit_message="$1"
 branch="$2"
 git add . -A
 git commit -m "$commit_message"
-if [ $branch == null]
+if [ $branch == null ]
 then
     git push origin master
 fi
