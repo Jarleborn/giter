@@ -30,4 +30,3 @@ else if ["${day}" -eq 7]; then
 fi
 
 say "your code is pushed now master, have a nice $dayText"
-echo basename `git rev-parse --show-toplevel`
