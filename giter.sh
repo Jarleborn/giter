@@ -26,6 +26,8 @@ elif ["$day" = 6]; then
   dayText="saturday"
 elif ["$day" = 7]; then
   dayText="sunday"
+else
+  dayText="day"
 fi
 
 say "your code is pushed now master, have a nice $dayText"
