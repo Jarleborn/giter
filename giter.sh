@@ -30,4 +30,6 @@ day=$(date +%A)
 #   dayText="day"
 # fi
 echo $day
-say "Oow supreem master $USERNAME your code is now pushed from $HOSTNAME       to your repository on  github,  have a nice $day"
+# say "Oow supreem master $USERNAME your code is now pushed from $HOSTNAME       to your repository on  github,  have a nice $day"
+
+espeak -v sv "Okej $USERNAME nu är din kod pushad från $HOSTNAME till dit rep på github ha en trevlig $day"
