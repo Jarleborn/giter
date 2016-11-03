@@ -12,7 +12,7 @@ fi
 
 
 day=$(date +%u)
-if [ "$day" == 1 ]; then
+if [ "$day" = 1 ]; then
   dayText="monday"
 elif ["$day" = 2]; then
   dayText="tuesday"
