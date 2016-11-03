@@ -30,4 +30,4 @@ day=$(date +%A)
 #   dayText="day"
 # fi
 
-say "supreem master your code is now pushed from $HOSTNAME to github have a nice $day"
+say "Oow supreem master $USERNAME your code is now pushed from $HOSTNAME       to github have a nice $day"
