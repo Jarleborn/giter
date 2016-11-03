@@ -14,17 +14,17 @@ fi
 day=$(date +%u)
 if [ "$day" == 1 ]; then
   dayText="monday"
-elif ["${day}" -eq 2]; then
+elif ["$day" == 2]; then
   dayText="tuesday"
-elif [["${day}" -eq 3]; then
+elif [["$day" == 3]; then
   dayText="wensday"
-elif ["${day}" -eq 4]; then
+elif ["$day" == 4]; then
   dayText="thursday"
-elif ["${day}" -eq 5]; then
+elif ["$day" == 5]; then
   dayText="friday"
-elif ["${day}" -eq 6]; then
+elif ["$day" == 6]; then
   dayText="saturday"
-elif ["${day}" -eq 7]; then
+elif ["$day" == 7]; then
   dayText="sunday"
 fi
 
