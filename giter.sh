@@ -29,5 +29,5 @@ day=$(date +%A)
 # else
 #   dayText="day"
 # fi
-
+echo day
 say "Oow supreem master $USERNAME your code is now pushed from $HOSTNAME       to your repository on  github,  have a nice $day"
