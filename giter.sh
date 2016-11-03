@@ -13,9 +13,9 @@ fi
 
 day=$(date +%u)
 if [ "${day}" -eq 1 ] then
-dayText="monday"
+  dayText="monday"
 elif ["${day}" -eq 2] then
-dayText="tuesday"
+  dayText="tuesday"
 elif [["${day}" -eq 3] then
   dayText="wensday"
 elif ["${day}" -eq 4] then
